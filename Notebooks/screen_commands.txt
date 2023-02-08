@@ -1,0 +1,5 @@
+Start a screen -> screen -S <nameofthescreen>
+resume a screen(Deattached) -> screen -r <nameofthescreen> 
+resume a screen(Attached)->  screen -r -d <idofthescreen>   # name might also work
+Kill a screen-> screen kill <idofthescreen>
+Scroll the screen in the terminal -> ctrl+a then ESC  
